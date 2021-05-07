@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(51, 56, 59);
+}
+
+/*HEADER CSS*/
+header {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-color:#112;
+    width: 100%;
+    left: 0px;
+    top:0px;
+}
+
+.header-content >p {
+    font-size: x-large;
+    color: bisque;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+/*CONTENT CSS*/
+#maincontent {
+    margin-top:150px;
+}
+
+#stopwatch {
+    margin:auto;
+    width:40%;
+    border-style:solid;
+}
+
+#timer { 
+    margin:auto;
+    width:40%;
+    border-style:solid;
+}
+
+
+/*FOOTER CSS*/
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background: rgb(16, 17, 17);
+    color: bisque;
+}
+
+.footer-content {
+    height: 35px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.m1 {
+    margin:7px;
+    height: 20px;
+    text-align: center;
+    flex:1;
+    order: 1;
+}
+
+.m2 {
+    margin: 7px;
+    height: 20px;
+    text-align: center;
+    flex:1;
+    order: 3;
+}
+
+.socials {
+    height: 35px;
+    order: 2;
+    text-align: center;
+    flex:1;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socials > a {
+    padding: 4px;
+    justify-content:stretch;
+    color:aliceblue;
+    font-size:x-large;
+}
+
+.socials > a :hover{
+    color:darkcyan;
+}
+

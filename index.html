@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <div class="header-content">
+            <p class="m3">
+                Time is a Stubborn Illusion
+            </p>
+        </div>
+    </header>
+
+    <div id="maincontent">
+        <button id="back" onclick="back()">Back</button>
+
+        <div id="stopwatch">
+            <div id="inactive-sw">
+                <button id="gotosw" onclick="setSW()" >Stopwatch</button>
+            </div>
+    
+            <div id="active-sw">
+                <p id="sw-content">00:00:00</p>
+                <button id="sw-start"> Start</button>
+                <button id="sw-stop">Stop</button>
+                <button id="sw-reset">Reset</button>
+            </div>
+
+        </div>
+
+        <div id="timer">
+            <div id="inactive-timer">
+                <button id="gotostopwatch" onclick="setTimer()"> Timer </button>
+            </div>
+    
+            <div id="active-timer">
+                <p id="sw-content">00:00:00</p>
+                <button id="timer-start">Start</button>
+                <button id="timer-stop">Stop</button>
+                <button id="timer-reset">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p class="m1">
+                Made with <b>&#9829</b></p>
+            </p>
+            <p class="m2">
+                &copy2021 Dakshveer Singh Chauhan
+            </p>
+
+            <div class="socials">
+                <a href="https://github.com/dakshveer-singh04" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://twitter.com/dakshveer_dsc" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/dakshveer-singh-chauhan-841836142/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                <a href="https://hi-in.facebook.com/dakshveersingh.chauhan.5" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/dakshveer04/" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+    
+        </div>
+    </footer>
+
+    <script src="functions.js"></script>
+
+</body>
+</html>
